@@ -1,0 +1,95 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body {
+    background: url("https://images.unsplash.com/photo-1556691421-cf15fe27a0b6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8YmFubmVyJTIwYmFja2dyb3VuZHxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-origin: border-box;
+    background-clip: border-box;
+    font-family: 'Roboto Condensed' sans-serif;
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    padding:  3rem
+}
+
+h2 {
+    font-size: 3rem;
+    color: goldenrod;
+    padding: 2rem;
+}
+
+input {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 80px;
+    height: 80px;
+    font-size: 2.2rem;
+    border: 1px solid;
+    border-radius: 4px;
+    outline: none;
+}
+
+#content{
+    background-color: rgb(10, 25, 65);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    margin: 2rem;
+    width: fit-content;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid inherit;
+    border-radius: 25px;
+    box-shadow: 5px 5px 5px;
+}
+#box{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;    
+}
+label{
+    display:flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px ;
+    font-size: 1.8rem;
+    color: rgb(163, 73, 73);
+}
+p{
+    font-size: 1.4rem;
+    margin-bottom: 40px;
+    color: #fff;
+}
+#height-el{
+margin-bottom: 20px;
+}
+#message-el{
+    color: black;
+}
+button{
+    padding: 10px;
+    border-radius: 4px;
+    font-size: 1.4rem;
+    cursor: not-allowed;
+    background-color: blueviolet;
+    border: none;
+    margin-top: -40px;
+    margin-bottom: 40px;
+}
