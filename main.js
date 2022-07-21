@@ -10,10 +10,10 @@ function stopTyping() {
     height.type = "number";
     if(weight.value.length > 0 && height.value.length > 0) {
         document.getElementById("btn").disabled = false;
-        btn.style.cursor = "pointer"
+        btn.style.cursor = "pointer";
     } else if (weight.value.length > 0 || height.value.length > 0){
         document.getElementById("btn").disabled = true;
-        btn.style.cursor = "not-allowed"
+        btn.style.cursor = "not-allowed";
     }
 }
 
