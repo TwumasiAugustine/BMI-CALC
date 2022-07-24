@@ -16,14 +16,14 @@
             <h2>BMI Calculator</h2>
             <div id="box">
                 <label for="weight">Weight: (kg) </label>
-                <input type="" id="weight-el" onload="" onkeyup="stopTyping()">
+                <input type="" id="weight-el" onload="" onkeyup="onTyping()">
                 <label for="height">Height: (cm) </label>
-                <input type="text" id="height-el"  onkeyup="stopTyping()">
+                <input type="text" id="height-el"  onkeyup="onTyping()">
             </div>
                 <p id="result-el" class="input">BMI: </p>
                 <p id="message-el" class="input">Body Status: Unknown</p> 
                 <br>
-            <button id="btn" onclick="bmiResults()" disabled>Calculate</button></div>
+            <button id="btn"  onclick="bmiResults()" disabled>Calculate</button></div>
         </div> 
     </main>
 </body>
