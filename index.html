@@ -7,25 +7,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My First JavaScript Application</title>
     <link rel="stylesheet" href="./main.css">
-    <script src="./main.js" defer async></script>
 </head>
-
 <body>
     <main id="app">
         <div id="content">
             <h2>BMI Calculator</h2>
             <div id="box">
-                <label for="weight">Weight: (kg) </label>
-                <input type="" id="weight-el" onload="" onkeyup="onTyping()">
-                <label for="height">Height: (cm) </label>
+                <label for="weight-el">Weight: (kg) </label>
+                <input type="text" id="weight-el" onkeyup="onTyping()">
+                <label for="height-el">Height: (cm) </label>
                 <input type="text" id="height-el"  onkeyup="onTyping()">
             </div>
                 <p id="result-el" class="input">BMI: </p>
                 <p id="message-el" class="input">Body Status: Unknown</p> 
                 <br>
-            <button id="btn"  disabled>Calculate</button></div>
-        </div> 
+            <button id="btn"  disabled>Calculate</button>
+        </div>
     </main>
+    <script src="./main.js" defer async></script>
 </body>
-
 </html>
